@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".SobrePage">
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:layout_marginBottom="-80sp"
+              android:text="App Portais"
+              android:textSize="30sp"
+              android:gravity="center"
+              android:layout_marginTop="80sp"
+              android:layout_marginLeft="15sp"
+              android:layout_marginRight="15sp"/>
+
+    <TextView android:layout_width="match_parent"
+              android:layout_height="35dp"
+              android:layout_marginBottom="40sp"
+              android:text="Marcelo Shibuya"
+              android:textSize="30sp"
+              android:gravity="center"
+              android:layout_marginTop="80sp"
+              android:layout_marginLeft="15sp"
+              android:layout_marginRight="15sp"/>
+
+    <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center"
+            android:text="LIMPAR ESTATÍSTICA"
+            android:id="@+id/btLimpa"/>
+
+</LinearLayout>
